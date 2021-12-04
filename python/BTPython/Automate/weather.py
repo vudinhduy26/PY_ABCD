@@ -1,0 +1,2 @@
+weather = ('{"coord":{"lon":-0.1257,"lat":51.5085},"weather":[{"id":800,"main":"Clear","description":"clear '
+ 'sky","icon":"01d"}],"base":"stations","main":{"temp":279.36,"feels_like":279.36,"temp_min":277.98,"temp_max":280.86,"pressure":1018,"humidity":72},"visibility":10000,"wind":{"speed":0.45,"deg":330,"gust":1.79},"clouds":{"all":10},"dt":1637841426,"sys":{"type":2,"id":2019646,"country":"GB","sunrise":1637825718,"sunset":1637856008},"timezone":0,"id":2643743,"name":"London","cod":200}')

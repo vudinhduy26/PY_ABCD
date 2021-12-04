@@ -1,0 +1,55 @@
+1620528631751	geckodriver	INFO	Listening on 127.0.0.1:50147
+1620528690786	geckodriver	INFO	Listening on 127.0.0.1:50161
+1620528726653	geckodriver	INFO	Listening on 127.0.0.1:50177
+1620528991652	geckodriver	INFO	Listening on 127.0.0.1:50393
+1620528995084	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duy\\AppData\\Local\\Temp\\rust_mozprofiled27v2q"
+1620529000265	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 375)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:375:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:368:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:410:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:448:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:75:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:367:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:301:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:351:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:198:14\ncallback@resource://gre/modules/Timer.jsm:127:16\n"
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: "Could not load engine google@search.mozilla.org: TypeError: AddonManagerInternal._getProviderByName(...) is undefined"
+console.error: "Could not load engine wikipedia@search.mozilla.org: TypeError: AddonManagerInternal._getProviderByName(...) is undefined"
+console.error: "Could not load engine coccoc@search.mozilla.org: TypeError: AddonManagerInternal._getProviderByName(...) is undefined"
+console.error: "Could not load engine ddg@search.mozilla.org: TypeError: AddonManagerInternal._getProviderByName(...) is undefined"
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+[Parent 3156, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 196: Error: Data is not ready.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: Object
+1620529034651	geckodriver	INFO	Listening on 127.0.0.1:50462
+1620529037523	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duy\\AppData\\Local\\Temp\\rust_mozprofiledRQp71"
+1620529038477	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620529049356	Marionette	INFO	Listening on port 50471
+1620529049602	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google.com/xjs/_/js/k=xjs.s.vi.8cNwqduI4J0.O/ck=xjs.s.lFHWbjEuq2Y.L.F4.O/am=ghkiAADwIYUIFAAAAIBEAAAAAAAABQCAZLcoAFDzyAAACAGHAGBSRAIAAIAJrAFw_oMAgAu4xAAAAAAAAAG0BBqlAiQCAhAAAACArBZMDoEAKA/d=1/exm=ZyRBae,cdos,cr,csi,d,dpf,hsm,jsa/ed=1/dg=2/rs=ACT90oHgc3KhNrP-MPYl-8vNCwOKFk9fsg/m=DGEKAc,E2Spzb,EPszLb,IkchZc,KVWnye,MkIO9c,NBZ7u,O8k1Cd,OG6ZHd,SvnKM,T7XTS,TxZWcc,URQPYc,UTxq6e,XjCeUc,ZDfS0b,aCZVp,aa,abd,async,bgd,dvl,eN4qad,eT9j9d,fk3mof,foot,gpo5Gf,iD8Yk,kyn,lli,mUpTid,mu,o02Jie,pB6Zqd,pkeO3b,qik19b,rHjpXd,runuse,sb_wiz,sf,tl,wkrYee,xz7cCd,zbML3c?xjs=s1, line 897: Script terminated by timeout at:
+s_EP@https://www.google.com/xjs/_/js/k=xjs.s.vi.8cNwqduI4J0.O/ck=xjs.s.lFHWbjEuq2Y.L.F4.O/am=ghkiAADwIYUIFAAAAIBEAAAAAAAABQCAZLcoAFDzyAAACAGHAGBSRAIAAIAJrAFw_oMAgAu4xAAAAAAAAAG0BBqlAiQCAhAAAACArBZMDoEAKA/d=1/exm=ZyRBae,cdos,cr,csi,d,dpf,hsm,jsa/ed=1/dg=2/rs=ACT90oHgc3KhNrP-MPYl-8vNCwOKFk9fsg/m=DGEKAc,E2Spzb,EPszLb,IkchZc,KVWnye,MkIO9c,NBZ7u,O8k1Cd,OG6ZHd,SvnKM,T7XTS,TxZWcc,URQPYc,UTxq6e,XjCeUc,ZDfS0b,aCZVp,aa,abd,async,bgd,dvl,eN4qad,eT9j9d,fk3mof,foot,gpo5Gf,iD8Yk,kyn,lli,mUpTid,mu,o02Jie,pB6Zqd,pkeO3b,qik19b,rHjpXd,runuse,sb_wiz,sf,tl,wkrYee,xz7cCd,zbML3c?xjs=s1:897:117
+s_AJg/<@https://www.google.com/xjs/_/js/k=xjs.s.vi.8cNwqduI4J0.O/ck=xjs.s.lFHWbjEuq2Y.L.F4.O/am=ghkiAADwIYUIFAAAAIBEAAAAAAAABQCAZLcoAFDzyAAACAGHAGBSRAIAAIAJrAFw_oMAgAu4xAAAAAAAAAG0BBqlAiQCAhAAAACArBZMDoEAKA/d=1/exm=ZyRBae,cdos,cr,csi,d,dpf,hsm,jsa/ed=1/dg=2/rs=ACT90oHgc3KhNrP-MPYl-8vNCwOKFk9fsg/m=DGEKAc,E2Spzb,EPszLb,IkchZc,KVWnye,MkIO9c,NBZ7u,O8k1Cd,OG6ZHd,SvnKM,T7XTS,TxZWcc,URQPYc,UTxq6e,XjCeUc,ZDfS0b,aCZVp,aa,abd,async,bgd,dvl,eN4qad,eT9j9d,fk3mof,foot,gpo5Gf,iD8Yk,kyn,lli,mUpTid,mu,o02Jie,pB6Zqd,pkeO3b,qik19b,rHjpXd,runuse,sb_wiz,sf,tl,wkrYee,xz7cCd,zbML3c?xjs=s1:937:245
+s_xja@https://www.google.com/xjs/_/js/k=xjs.s.vi.8cNwqduI4J0.O/m=ZyRBae,cdos,cr,dpf,hsm,jsa,d,csi/am=ghkiAADwIYUIFAAAAIBEAAAAAAAABQCAZLcoAFDzyAAACAGHAGBSRAIAAIAJrAFw_oMAgAu4xAAAAAAAAAG0BBqlAiQCAhAAAACArBZMDoEAKA/d=1/ed=1/dg=2/rs=ACT90oHBEmgu1eRrjoUf7HwbeTJHm23cRg:315:252
+s_uja@https://www.google.com/xjs/_/js/k=xjs.s.vi.8cNwqduI4J0.O/m=ZyRBae,cdos,cr,dpf,hsm,jsa,d,csi/am=ghkiAADwIYUIFAAAAIBEAAAAAAAABQCAZLcoAFDzyAAACAGHAGBSRAIAAIAJrAFw_oMAgAu4xAAAAAAAAAG0BBqlAiQCAhAAAACArBZMDoEAKA/d=1/ed=1/dg=2/rs=ACT90oHBEmgu1eRrjoUf7HwbeTJHm23cRg:315:303
+b@https://www.google.com/xjs/_/js/k=xjs.s.vi.8cNwqduI4J0.O/m=ZyRBae,cdos,cr,dpf,hsm,jsa,d,csi/am=ghkiAADwIYUIFAAAAIBEAAAAAAAABQCAZLcoAFDzyAAACAGHAGBSRAIAAIAJrAFw_oMAgAu4xAAAAAAAAAG0BBqlAiQCAhAAAACArBZMDoEAKA/d=1/ed=1/dg=2/rs=ACT90oHBEmgu1eRrjoUf7HwbeTJHm23cRg:312:271
+
+1620529467601	Marionette	INFO	Stopped listening on port 50471
+1620529481611	geckodriver	INFO	Listening on 127.0.0.1:50766
+1620529484557	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duy\\AppData\\Local\\Temp\\rust_mozprofilesDO0Zx"
+1620529485577	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620529491380	Marionette	INFO	Listening on port 50775
+1620529492034	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620529520845	Marionette	INFO	Stopped listening on port 50775
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620529665678	geckodriver	INFO	Listening on 127.0.0.1:50911
+1620529668702	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\duy\\AppData\\Local\\Temp\\rust_mozprofileMZcbQD"
+1620529669562	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620529675323	Marionette	INFO	Listening on port 50919
+1620529675883	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620529965226	Marionette	INFO	Stopped listening on port 50919
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
